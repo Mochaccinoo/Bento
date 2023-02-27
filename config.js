@@ -12,13 +12,13 @@ const CONFIG = {
 
   
 	// General
-	name: 'John',
+	name: 'Lena',
 	openInNewTab: true,
-	twelveHourFormat: false,
-  title: 'Bento',
+	twelveHourFormat: true,
+  	title: 'New Tab',
 
 	// Theme
-	theme: 'bento',
+	theme: ' catppuccin',
 	imageBackground: false,
   imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
 
@@ -32,20 +32,20 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: 'b2333100d9f33d45a3fd8d739a0af757', // Write here your API Key
+	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '39.047',
+	defaultLongitude: '-77.377',
 
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
-	changeThemeByOS: true,
+	changeThemeByOS: false,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
 	changeThemeByHour: false,
@@ -62,80 +62,81 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'mail',
+			icon: 'mail',
+			link: 'https://mail.google.com/mail/u/0',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'calendar',
+			icon: 'calendar',
+			link: 'https://mail.protonmail.com',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'twitch',
+			icon: 'twitch',
+			link: 'https://www.twitch.tv',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'twitter',
+			icon: 'twitter',
+			link: 'https://twitter.com/home',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'instagram',
+			icon: 'instagram',
+			link: 'https://www.instagram.com',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			name: 'Mail',
+			icon: 'mail',
+			link: 'https://mail.google.com/mail/u/0',
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'Calendar',
+			icon: 'calendar',
+			link: 'https://mail.protonmail.com',
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com',
 		},
 		{
 			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			name: 'Twitch',
+			icon: 'twitch',
+			link: 'https://www.twitch.tv',
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'Twitter',
+			icon: 'twitter',
+			link: 'https://twitter.com/home',
 		},
 		{
 			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'Instagram',
+			icon: 'instagram',
+			link: 'https://www.instagram.com',
 		},
 	],
+
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
@@ -144,46 +145,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'keyboard',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/mk',
+					link: 'https://www.reddit.com/r/MechanicalKeyboards',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/mm',
+					link: 'https://www.reddit.com/r/mechmarket',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'geekhack',
+					link: 'https://geekhack.org',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'mechgb',
+					link: 'https://www.mechgroupbuys.com',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'skull',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'slavart',
+					link: 'https://slavart.gamesdrive.net',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'cmacked',
+					link: 'https://cmacked.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'libgen',
+					link: 'https://libgen.rs',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: '1337',
+					link: 'https://1337x.to',
 				},
 			],
 		},
