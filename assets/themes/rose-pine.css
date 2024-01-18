@@ -20,12 +20,12 @@
     /* Dark Colors  */
   
     --background: #232136; /* Background color */
-    --accent: #2a273f; /* Hover color */
-    --cards: #393552; /* Cards color */
-  
+    --accent: #393552; /* Hover color */
+    --cards: #2a273f; /* Cards color */
+    
     /* Fonts Color */
     --fg: #e0def4; /* Foreground color */
-    --sfg: #908caa; /* Secondary Foreground color */
+    --sfg: #e0def4; /* Secondary Foreground color */
   
     /* Image background  */
     /* Image background  */
