@@ -1,0 +1,38 @@
+:root {
+    /* Light Colors  */
+  
+    --background: #f2f4f8; /* Background color */
+    --accent:#dde1e6; /* Hover color */
+    --cards: #dde1e6; /* Cards color */
+  
+    /* Fonts Color */
+    --fg: #262626; /* Foreground color */
+    --sfg: #161616; /* Secondary Foreground color */
+              
+    /* Image background  */
+    --imgcol: linear-gradient(
+      rgba(87, 82, 104, 0.85),
+      rgba(87, 82, 104, 0.85)
+    ); /* Filter color */
+  }
+  .darktheme {
+    /* Dark Colors  */
+  
+    --background: #161616; /* Background color */
+    --accent: #262626; /* Hover color */
+    --cards: #161616; /* Cards color */
+    
+    /* Fonts Color */
+    --fg: #ffffff; /* Foreground color */
+    --sfg: #f2f4f8; /* Secondary Foreground color */
+  
+    /* Image background  */
+    /* Image background  */
+    --imgcol: linear-gradient(
+      rgba(30, 30, 46, 0.85),
+      rgba(30, 30, 46, 0.85)
+    ); /* Filter color */
+}
+
+  
+  
