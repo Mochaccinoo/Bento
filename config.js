@@ -18,7 +18,7 @@ const CONFIG = {
   title: 'New Tab',
 
   // Theme
-  theme: 'rose-pine',
+  theme: 'oxocarbon',
   imageBackground: false,
   imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
 
